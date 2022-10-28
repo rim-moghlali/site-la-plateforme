@@ -1,0 +1,236 @@
+header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 35 px 0;
+  margin: auto;
+  align-items: center;
+}
+
+/*
+.logo{
+  border: 1cm solid red;
+  width: 70%;
+  margin: 5cm;
+  height: 10%;
+}
+
+ align-items: center;
+*/
+
+header img{
+border: 1cm solid white;
+width: 370;
+height: 65px;
+margin:auto;
+align-items: center;
+}
+
+
+header ul li {
+  list-style: none;
+  display: inline-block; 
+}
+
+header ul li a{
+  text-decoration: none;
+  color : grey;
+  /* text-transform: uppercase; */
+  border: 1cm solid white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstpart p{
+  color : white;
+}
+/*
+.uldroit{
+  border: 1cm solid blue;
+  width: 50%;
+}
+*/
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstpart{
+  display: flex;
+  justify-content: space-between;
+  background-color: #336699;
+}
+
+.firstpart p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+text-align: center;
+/* margin-top: 70px;
+margin-left: 11px;
+margin-right: 11px;
+margin-bottom: 11px;  */
+/* border: 1px solid black; */
+  padding: 100px;
+  /* width: 400px;
+  height: 400px; */
+  text-align: justify;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+color: white;
+}
+
+/* .firstpart p1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;  
+  color : white;
+} */
+
+button{
+  display: inline-block;
+  background-color: #ff2063;
+  border-radius: 30px;
+  border:#ff2063;
+  color: white;
+  font-family: Arial, Helvetica,serif;
+  line-height: 27.2px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 400px;
+}
+
+#button1{
+  display: inline-block;
+  background-color: #ffca4b;
+  border-radius: 30px;
+  border:#ffca4b;
+  color: white;
+  font-family: Arial, Helvetica,serif;
+  line-height: 27.2px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 250px;
+  align-items: center;
+  align-content: center;
+}
+
+.firstpart img{
+width: 800;
+height: 800;
+}
+
+/* .right{
+border: 1cm solid green;
+justify-content: flex-start;
+} */
+
+/* .left{
+border: 1cm solid yellow;
+justify-content: flex-end;
+height: auto;
+width: auto;
+} */
+
+h2{
+text-align: center;
+/* font-size: 50px;  */
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #336699
+}
+
+.branchs{
+/* border: 1cm solid grey; */
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+justify-content: space-around; 
+/* padding:3%; */
+}
+
+/* .branchs element{
+  display: flex;
+  text-align: left;
+  padding: 24px;
+  flex: 1; */
+  /* background: white;
+  flex-direction: column;
+  width: 25%;
+  padding: 3%;
+  font-size: 20px;
+  color:#336699;
+  text-align: justify;
+  box-shadow: 0px 0px 60px 0px rgb(71 74 182 / 12%); 
+  } */
+
+  .element{
+    /*text-align: center;
+    line-height: 27.2px;
+    letter-spacing: normal;
+    padding: 24px;
+    flex: 1;*/
+    background: white; 
+    flex-direction: column;
+    display: flex;
+    width: 25%;  
+    padding: 24px;
+    font-size: 20px; 
+    color:#336699;
+    text-align: justify;
+    box-shadow: 0px 0px 60px 0px rgb(71 74 182 / 12%); 
+  }
+
+  /* .branchs element2{
+    text-align: center;
+    padding: 24px;
+    flex: 1;
+    background: white;
+    flex-direction: column;
+    width: 25%;
+    padding: 3%;
+    font-size: 20px;
+    color:#336699;
+    text-align: justify;
+    box-shadow: 0px 0px 60px 0px rgb(71 74 182 / 12%);
+  } */
+
+  .branchs img{
+    /* display: flex; 
+    justify-content: center;*/
+    align-self: center;
+    width: 80px;
+    height: 80px; 
+    
+  }
+
+
+/* .branchs p{
+  text-align: justify;
+}
+   */
+/* .secondleft{
+  border: 1cm solid yellow;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+}
+
+.secondmiddle{
+border: 1cm solid rgb(161, 17, 41);
+}
+
+.secondright{
+border: 1cm solid rgb(28, 16, 109);
+} */
+
+.secondpart{
+  display: flex;
+  justify-content: space-around;
+}
